@@ -460,7 +460,7 @@ phina.define('GameEndScene', {
     var endback_y = this.gridY.span(14);
     moveEndWordLength(this.label_wordlength, this.label_score, this.button_twitter, this.button_end_back, centerX, centerY, wordlength_y, score_y, twitter_y, endback_y);
 
-    var url = "https://capricalm.com/game/ugomoji/";
+    var url = "https://rion96194.github.io/ugomoji/";
     var tweetTxt = encodeURIComponent("このゲーム（うごもじくん）で遊んでいます！" +  param.score + "点ゲットしました！ " + url + " #ugomojikun #うごもじくん");
     button_twitter.setInteractive(true);
     button_twitter.onclick = function(){
