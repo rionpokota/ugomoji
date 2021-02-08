@@ -1,0 +1,78 @@
+@@font-face {
+	font-family: 'M PLUS Rounded 1c';
+	src: url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+}
+
+.blockFrm{
+	width: 640px;
+	height: auto;
+	margin: auto;
+}
+.block{
+	width: auto;
+	height: auto;
+	margin: auto;
+}
+.block h3 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.line {
+	display: flex;
+	align-items: center;
+}
+.line:after{
+	border-top: 1px solid;
+	content: "";
+	flex-grow: 1;
+}
+.contents {
+	margin-left: 10px;
+}
+#title{
+	text-align: center;
+}
+#credit{
+	text-align: center;
+}
+#gamestart {
+	text-align: center;
+}
+.square_btn {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #389723;
+	font-size: 20px;
+  border: solid 2px #389723;
+  border-radius: 3px;
+  transition: .4s;
+}
+.square_btn:hover {
+  background: #389723;
+  color: white;
+}
+.socialbutton {
+	display: inline-block;
+	vertical-align: top;
+}
+.boxcontainer {
+	text-align: center;
+}
+.poster {
+	text-align: center;
+}
+/* CSSでレスポンシブ対応 */
+@media screen and (max-width: 768px) {
+	body{
+
+	}
+	.blockFrm {
+		width: 95%;
+		height: auto;
+		margin: auto;
+	}
+	.block {
+		font-family: "M PLUS Rounded 1c", "Arial", sans-serif;
+	}
+}

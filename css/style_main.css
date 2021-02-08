@@ -1,0 +1,10 @@
+body {
+  background-color: hsl(0, 0%, 90%);
+}
+#area {
+  height: 100%;
+}
+#tutorial_bg {
+  background-color: #FFF;
+  opacity: 0.7;
+}
